@@ -695,7 +695,7 @@ ul#bottom-menu a:hover {
 .contact-box-warp {
   display: flex;
   flex-wrap: wrap;
-  padding: 30px 0 20px;
+  padding: 20px 0 ;
 
   justify-content: space-between;
 }
@@ -1044,7 +1044,7 @@ a.m_btn:focus {
 .foot-wrap {
   display: flex;
   margin: 0 auto;
-  padding: 1% 4% 0.5%;
+  padding: 2% 4% 0.5%;
 }
 
 .footer-left {
