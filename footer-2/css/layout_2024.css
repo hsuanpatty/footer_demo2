@@ -689,13 +689,12 @@ ul#bottom-menu a:hover {
   width: 2px;
   min-height: 210px;
   background: #cacaca;
-  margin: 10px 5%;
+  margin: 0 5%;
 }
 
 .contact-box-warp {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 0 ;
 
   justify-content: space-between;
 }
@@ -1049,7 +1048,6 @@ a.m_btn:focus {
 
 .footer-left {
   width:  35%;
-  margin: auto;
 }
 
 .footer-left h4 {
@@ -1131,9 +1129,9 @@ ul.footer-social li a img {
   font-size:14px;
   justify-content: space-between;
 }
-.footer-right > .contact-box p{
-  font-size: 13px !important;
-  margin: 0px !important;
+
+.footer-right .contact-box-warp > li {
+  margin: 10px 0 0;
 }
 
 .footer-end {
@@ -1170,6 +1168,10 @@ ul.footer-social li a img {
 
   ul#bottom-menu a {
     padding: 0;
+  }
+
+  .foot-wrap {
+    padding: 2% 0 0.5%;
   }
 
 }
