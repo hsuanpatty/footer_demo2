@@ -619,8 +619,10 @@ header#header {
 /*==================== 2025 調整 footer ====================*/
 
 footer#footer {
-  color: #f1f1f1;
-  background-color: #8c001a;
+  color: #5a5a5a;
+  background-color: #e9e9e9;
+  /* background-color: #6d696a; */
+  /* background-color: #8c001a; */
   font-size: 0.875rem;
   line-height: 2rem;
   letter-spacing: 1px;
@@ -632,7 +634,7 @@ footer#footer {
 }
 
 footer#footer a {
-  color: #f1f1f1;
+  color: #3d3d3d;
   text-decoration: none;
   transition: 0.5s;
 }
@@ -871,7 +873,7 @@ ul#bottom-menu a:hover {
   font-family: 微軟正黑體, "Microsoft JhengHei";
   font-weight: 600;
   line-height: 14px;
-  color: #fff7ce;
+  color: #5a5959;
   padding-bottom: 10px;
   display: flex;
   -webkit-box-align: start;
@@ -886,7 +888,7 @@ ul#bottom-menu a:hover {
   transform: translate(37%, -50%);
   width: 200px;
   height: 2px;
-  background-color: #fff7ce;
+  background-color: #cfcfcf;
 }
 
 .contact-pt-10 {
@@ -901,7 +903,7 @@ ul#bottom-menu a:hover {
 .contact-box p .contact-box-title {
   letter-spacing: 0.1rem;
   margin-right: 10px;
-  color: #fff7ce;
+  color: #8c001a;
 }
 
 .contact-box p .contact-box-titleK {
@@ -1079,7 +1081,7 @@ a.m_btn:focus {
   height: 0;
   border-style: solid;
   border-width: 6.5px 0 6.5px 6px;
-  border-color: transparent transparent transparent #fff7ce;
+  border-color: transparent transparent transparent #8c001a;;
   display: inline-block;
   margin-right: 5px;
 }
@@ -1096,7 +1098,7 @@ a.m_btn:focus {
 
 .footer-bottom .copyright {
   padding: 1% 0;
-  color: #e7e7e7e0;
+  color: #e7e7e7;
   font-size: 12px;
   text-align: center;
 }
@@ -1176,7 +1178,7 @@ ul.footer-social li a img {
   }
 
   ul#bottom-menu a {
-    padding: 21px;
+    padding: 0;
   }
 }
 
@@ -1212,6 +1214,10 @@ ul.footer-social li a img {
 
   .contact-pl-50 {
     padding-left: 50px;
+  }
+
+  ul#bottom-menu a {
+    padding: 16px;
   }
 
 }
