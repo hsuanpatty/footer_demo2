@@ -878,7 +878,7 @@ white-space: nowrap;
   }
 
   .glare-style li a.ic-file{
-    background:#e18c08;
+    background: #61009b;
   }
 
   .glare-style li a:hover:before {
@@ -962,7 +962,7 @@ white-space: nowrap;
     color: #fff;
   }
   .glare-style li a.ic-file:before {
-    background-color: #ce7d03;
+    background-color: #410364;
   }
   
   .ic-youtube .fa-youtube {
